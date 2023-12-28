@@ -1,0 +1,75 @@
+/* HALAMAN LOGIN */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("umis.jpeg"); /* Ganti 'background.jpg' dengan path gambar yang sesuai */
+  background-size: cover;
+  background-position: center;
+}
+
+.login-container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Menambahkan lapisan transparan untuk membedakan dari gambar latar belakang */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (CSS lainnya) */
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ... (CSS sebelumnya) */
+
+.back-to-home {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-to-home:hover {
+  text-decoration: underline;
+}
